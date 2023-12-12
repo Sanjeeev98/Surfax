@@ -9,7 +9,7 @@ return(<>
      <div className="box4">
         <div className="san1">
               <div className="d1">
-              <img src={d2}></img> 
+              <img src={d2} alt="img"></img> 
               </div>
               <div className="d2">
                     <h3>About US..</h3>
@@ -49,7 +49,7 @@ return(<>
 
         <div className="san2">
                 <div className="d3">
-                <img src={d1}></img>
+                <img src={d1} alt="img"></img>
                 </div>
                 <div className="d4">
                   <h3>ABOUT ERCA</h3>

@@ -1,8 +1,9 @@
 import React from 'react';
 import "./App.css"
 import { Link} from "react-router-dom";
-import logo from "../src/images/WhatsApp Image 2023-08-17 at 1.13.30 PM.jpeg"
-import pic1 from "../src/images/login-1536x1536.png"
+import logo from "../src/images/logo.jpeg"
+import mainpic from "./images/mainpic.avif"
+// import pic1 from "../src/images/login-1536x1536.png"
 import b1 from "../src/images/b1.avif"
 import b2 from "../src/images/b2.avif"
 import b3 from "../src/images/b3.avif"
@@ -14,7 +15,7 @@ const App = () => {
   return (<>
 	<header>
 		<div className='h1'>
-             <img src={logo}></img>
+             <img src={logo} alt='logo'></img>
 		</div>
 
 		<div className='h3'>
@@ -25,7 +26,7 @@ const App = () => {
 
 	    <div className='h2'>
 		<li> <Link className='link1' to="/About Us">About Us</Link> </li>
-		<li > <Link className='link1' to="/">Products</Link> </li>   
+		<li > <Link className='link1' to="/Products">Products</Link> </li>   
 		<li> <Link className='link1' >Concept 
 		<div className='h4'>
 			<ul>	
@@ -52,25 +53,25 @@ const App = () => {
 			 
 		</div>
                 <div className='a2'>
-				<img src={pic1}></img>    
+				<img src={mainpic} alt='pic1'></img>    
 				</div>
 	</div>
 
 	<div className='box3'>
             <div className='b1'>
-			<img src={b1}></img>  
+			<img src={b1} alt='pic2'></img>  
 			<p>Mens Graphic Printed Cotton Hooded Sweatshirt</p>
 			</div>
 			<div className='b2'>
-			<img src={b2}></img>  
+			<img src={b2} alt='pic3'></img>  
 			<p>Polyester  Trim Ruffled Sleeves Top for Women's</p>
 			</div>
 			<div className='b3'>
-			<img src={b3}></img>  
+			<img src={b3} alt='pic4'></img>  
 			<p>Cute Casual Floral Printed Kids</p>
 			</div>
 			<div className='b4'>
-			<img src={b4}></img>  
+			<img src={b4} alt='pic5'></img>  
 			<p>Men's Solid Slim Fit  Casual Shirt </p>
 			</div>
 	</div>
