@@ -46,7 +46,7 @@ const App = () => {
 
 	<div className='box2'>
 		<div className='a1'>
-             <h1>Let us lead the fashion more sustainable way</h1>
+             <p>Let us lead the fashion more sustainable way</p>
 			 <div className='a3'>
 			 <h4>Explore our concept in textile process</h4>
 			 </div>

@@ -8,6 +8,10 @@
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+.box4 h3{
+    font-weight: 500;
 }
 .box4 .san1{
     width: 35%;
@@ -34,6 +38,7 @@
     height: 737px;
     /* border: 1px solid black; */
     margin-top: 20px;
+    line-height: 1.6em;
 }
 .san1 h3{
     color: rgb(81, 81, 255);
@@ -75,6 +80,7 @@
     /* border: 1px solid black; */
     padding: 25px;
     /* margin-left: 65px; */
+    line-height: 2.5em;
     
     /* display: flex;
     justify-content: center;
