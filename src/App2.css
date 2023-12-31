@@ -1,0 +1,113 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+
+    
+
+}
+body{
+    background-color: #eeeeee;
+    overflow-x: hidden;
+}
+.bg1{
+    /* border: 1px solid black; */
+}
+.bg2{
+    background-color: chartreuse;
+
+    border: 1px solid red;
+   
+}
+.bg3{
+    background-color:whitesmoke;
+}
+.san{
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 400;
+}
+.sanlist{
+    font-size: 17px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight:unset;
+}
+.san3{
+    /* border: 1px solid black; */
+    background-color: #eeeeee;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: unset;
+    min-height: 400px;
+    /* height: auto; */
+}
+.p50{
+    padding: 40px;
+}
+.bgyellow{
+    background-color: rgb(255, 200, 48);
+    font-weight: unset;
+    border-radius: 10px; 
+   /* border: 1px solid black; */
+   /* margin-left: 150px;
+   margin-top: 20px; */
+
+}
+
+.san2{
+    height: 500px;
+    border: 1px solid black;
+}
+::-webkit-input-placeholder {
+    font-size: 18px;
+ }
+
+.san4{
+        /* border: 1px solid black; */
+        background-color: #eeeeee;
+        font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+        /* font-weight: unset; */
+        font-size: 19px;
+}
+
+.br{
+    border-radius: 30px;
+}
+.linkitem{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    text-decoration:  none;
+    font-size: 20px;
+    color: white;
+    list-style:  none;
+}
+
+.linkitem:hover {
+    color: rgb(255, 200, 48);
+
+}
+.h4{
+    width: 200px;
+    height: 180px;
+    /* border: 1px solid black; */
+    margin-left: -50px;
+    position: absolute;
+    /* background-color: white; */
+    background-color: #232324;
+   padding-top: 5px;
+   border-radius: 10px;
+}
+.h4{
+    display: none;
+} 
+.h2 :nth-child(3) :hover .h4{
+     display: block;
+}
+
+
+.form-control:focus {
+    border-color: white !important;
+    /* box-shadow: 0 0 5px rgb(50, 187, 72) !important; */
+    box-shadow: none !important;
+    outline: none!important;
+  }

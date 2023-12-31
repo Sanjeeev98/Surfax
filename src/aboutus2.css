@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.backcolor{
+    background-color: #eeeeee;
+}
+.bg{
+    border: 1px solid black;
+}
+.head3{
+    font-weight: 500;
+    color: rgb(81, 81, 255);
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para{
+    font-size: 19px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+.para2{
+    font-size: 23px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+.list{
+    font-size: 19px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+.line{
+    line-height: 2.5em;
+}

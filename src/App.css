@@ -7,52 +7,6 @@ body{
     /* background-color: yellow; */
 }
 
-
-/* @media(max-width:600px){
-    header .h1{
-        width: 90px;
-    height: 50px;
-    border: 1px solid black;
-    }
-    header .h1 img{
-        width: 90px;
-    height: 50px;
-    border: 1px solid black;
-    }
-    header .h2{
-        width: 280px;
-    height: 25px;
-    border: 1px solid black;
-    margin-top: 17px;
-    }
-    .h2 .link{
-        font-size: 10px;
-    }
-header .h3 .text{
-     width: 130px;
-     margin-left: -5px ;
-   
-    }
-    header .h3 ::placeholder{
-        text-align: center;
-    } 
-     .box2 .a1{
-         border: 1px solid black;
-       margin-left: 90px;
-    font-size: 15px;
-   font-style: italic ;
-    }
-    .box2 .a2{
-        display: none;
-    }
-    .box3{
-        border: 1px solid black;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-    }
-    
-} */
 header{
     position: fixed;
     display:  flex;
