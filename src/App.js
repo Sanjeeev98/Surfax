@@ -41,7 +41,7 @@ const App = () => {
                     </div>
 
                     <div class="col-sm-12  col-md-12  col-lg-6 mt-1 bg-dark sanlist h2 ">
-                  <ul class="d-flex justify-content-between mt-2">
+                  <ul class="d-flex justify-content-between mt-2 flex-wrap">
                 <li ><Link className='linkitem'  to="/About Us"> About Us </Link></li>
                 <li  ><Link className='linkitem' to="/Products">Products </Link></li>
                 <li ><Link className='linkitem'>Concept 
@@ -81,7 +81,7 @@ const App = () => {
     <div class="row">
         <div class="col-sm-6 d-flex flex-column align-items-center justify-content-center bg1">
             <h1 class="display-5 bg1 text-center">Let us lead the fashion in a more sustainable way</h1>
-            <h4 class="bgyellow text-dark p-1"style={{width:"450px",textAlign:"center"}}>Explore our concept in the textile process</h4>
+            <h4 class="bgyellow text-dark p-1"style={{width:"100%",textAlign:"center"}}>Explore our concept in the textile process</h4>
         </div>
         <div class="col-sm-6 bg1">
             <img class="img-fluid rounded mt-3 mb-3" src={mainpic} alt="img"/>
@@ -93,19 +93,19 @@ const App = () => {
                   <div class="container-fluid san4">
                     <div class="row">
                       <div class="col-sm-3 mt-2" >
-                        <img class="img-fluid rounded " style={{minHeight:"210px"}} src={b1} alt="img"/>
+                        <img class="img-fluid rounded " style={{ minHeight: "215px", height: "auto", width: "100%" }} src={b1} alt="img"/>
                         <p class="text-center mt-1">Mens Graphic Printed Cotton Hooded Sweatshirt</p>
                        </div>
                        <div class="col-sm-3 mt-2">
-                        <img class="img-fluid rounded " src={b2}  alt="img"/>
+                        <img class="img-fluid rounded " style={{ minHeight: "215px", height: "auto", width: "100%" }} src={b2}  alt="img"/>
                         <p class="text-center mt-1">Polyester  Trim Ruffled Sleeves Top for Women's</p>
                        </div>
                        <div class="col-sm-3 mt-2">
-                        <img class="img-fluid rounded" src={b3} alt="img"/>
+                        <img class="img-fluid rounded" style={{ minHeight: "215px", height: "auto", width: "100%" }} src={b3} alt="img"/>
                         <p class="text-center mt-1">Cute Casual Floral Printed Kids</p>
                        </div>
                        <div class="col-sm-3 mt-2">
-                        <img class="img-fluid rounded" src={b4}  alt="img"/>
+                        <img class="img-fluid rounded" style={{ minHeight: "215px", height: "auto", width: "100%" }} src={b4}  alt="img"/>
                         <p class="text-center mt-1">Men's Solid Slim Fit  Casual Shirt</p>
                        </div>
                       </div>
